@@ -1,4 +1,5 @@
 provider "azurerm" {
+  version = "=2.54.0"
   features {}
 
   client_id       = "a9c857b6-fcec-4c65-b2a2-0d51d69b838f"

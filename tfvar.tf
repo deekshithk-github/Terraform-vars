@@ -1,7 +1,4 @@
-variable "rgname"{}
-variable "loc"{}
-
 resource "azurerm_resource_group" "example" {
-  name     = var.rgname
-  location = var.loc
+  name     = resourcegp1
+  location = eastus2
 }
